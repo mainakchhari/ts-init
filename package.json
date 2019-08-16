@@ -1,0 +1,22 @@
+{
+  "name": "ts-init",
+  "version": "1.0.0",
+  "description": "Basic Starter Template for TypeScript",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc --build tsconfig.json"
+  },
+  "keywords": [
+    "ts",
+    "TypeScript",
+    "node"
+  ],
+  "author": "Mainak Chhari",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
